@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Count Up Timer</title>
+
+	<style>
+		#my_timer {
+			font-family: Helvetica, Arial, sans-serif;
+			color: steelblue;
+			font-size: 1000%;
+			font-weight: bold;
+		}
+	</style>
+
+</head>
+<body>
+	
+	<p>
+		<span id="my_timer">
+			09:59:55
+		</span>
+	</p>
+
+	<button id="control" onclick="changeState();">START</button>
+	<button id="reset" onclick="reset();">RESET</button>
+
+	<script type="text/javascript" src="js/timer.js"></script>
+
+</body>
+</html>
